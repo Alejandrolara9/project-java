@@ -1,0 +1,9 @@
+version: '3'  
+services:
+  java-container:
+    image: java-container:1.0.0
+    container_name: java-container
+    build: 
+      context: ./
+    ports:  
+    - "9090:9090"
